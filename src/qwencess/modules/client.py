@@ -7,8 +7,6 @@ from textual.containers import Center, VerticalScroll
 from textual.widgets import Input, Markdown
 from textual.color import Color
 
-# from here
-
 class InputDecroation(Input):
     """input decor"""
         
