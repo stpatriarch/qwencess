@@ -3,9 +3,11 @@
 import requests
 
 from textual.app import App, ComposeResult
-from textual.containers import Center, Middle, VerticalScroll
+from textual.containers import Center, VerticalScroll
 from textual.widgets import Input, Markdown
 from textual.color import Color
+
+# from here
 
 class InputDecroation(Input):
     """input decor"""
