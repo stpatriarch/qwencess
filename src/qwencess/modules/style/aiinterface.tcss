@@ -1,0 +1,31 @@
+Screen {
+    align: center middle;
+}
+
+AiInterface {
+
+   layout: vertical; 
+
+}
+
+#ai_response {
+    height: 1fr;
+    border: wide white;
+    width: 100; 
+}
+
+
+#prompt {
+    height: 3;
+    border: tall $background white;
+
+    background: green 10%;
+    width: 90;
+}
+MarkAiResponse {
+
+    text-align: center;
+    content-align: center top;
+    background: 10%;
+
+}
